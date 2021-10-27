@@ -1,0 +1,117 @@
+/* Header */
+
+.header {}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__description {
+    position: relative;
+    margin-right: -105px;
+    z-index: 9;
+}
+
+.header__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.46;
+}
+
+.header__text {
+    width: 470px;
+}
+
+.header__text p {
+    margin-bottom: 1em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.687;
+}
+
+.header__form {
+    margin-top: 45px;
+}
+
+.header__form-email .input {
+    padding-left: 72px;
+    padding-right: 180px;
+    width: 100%;
+}
+
+.header__form-email {
+    position: relative;
+    width: 460px;
+}
+
+.header__form-email .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header__form-email::before {
+    position: absolute;
+    top: 20px;
+    left: 28px;
+    content: '';
+    display: block;
+    width: 24px;
+    height: 19px;
+    background-image: url("../img/icon/email_icon.svg");
+    background-size: initial;
+}
+
+.header__img img {
+    margin-top: 20px;
+    border-radius: 90px 90px 90px 0px;
+}
+
+.input {
+    height: 58px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fff;
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.10);
+    border: none;
+    border-radius: 29px;
+    line-height: 58px;
+    font-size: 16px;
+    font-family: inherit;
+    color: inherit;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0px 17px 42px rgb(250, 225, 5, 0.29);
+}
+
+.input::placeholder {
+    color: #bbbbbb;
+}
+
+.button {
+    height: 58px;
+    border: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #fae105;
+    color: #58BEBF;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 29px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: #f3c632;
+}
